@@ -24,7 +24,20 @@ A rendszer felépítése:
 
 ## 2. Miért? (A rendszer célja)
 
+A rendszer fő célja, hogy megkönnyítse a diákok mindennapi számolással és mértékegység-átváltással kapcsolatos feladatait.  
+A webes eszköz előnyei:
 
+- **Gyors és egyszerű használat:**  
+  A diákok gyakran szembesülnek olyan feladatokkal, amelyekhez számológépet vagy mértékegység átváltót használnak. Egy könnyen elérhető webes alkalmazás segíti őket abban, hogy ne kelljen külön alkalmazást telepíteniük, vagy más online forrásokat keresniük.
+
+- **Tanulási folyamat támogatása:**  
+  A rendszer nemcsak a végeredményt mutatja, hanem igény esetén (bővítésnél) lépésenként is bemutathatja a számítások menetét, ezzel fejlesztve a diákok matematikai gondolkodását.
+
+- **Mobilitás és platformfüggetlenség:**  
+  A webes megoldás bármilyen eszközről elérhető, így a diákok akár otthon, iskolában, vagy útközben is használhatják.
+
+- **Egyszerűség:**  
+  Nem igényel regisztrációt, adatmegadást vagy extra jogosultságokat, így a használat akadálymentes.
 
 ## 3. Hogyan? (A fejlesztési terv)
 
