@@ -41,5 +41,49 @@ A webes eszköz előnyei:
 
 ## 3. Hogyan? (A fejlesztési terv)
 
+### Fejlesztési módszertan
+
+- **Kanban:**  
+  A fejlesztés Kanban módszertannal zajlik, amely folyamatos fejlesztést és átlátható munkamenetet biztosít.  
+  A fejlesztési folyamat főbb lépései:  
+    - Feladatok felvétele és priorizálása (pl. alapműveletek, UI design, átváltó funkció).
+    - Folyamatos fejlesztés, tesztelés és kiadás.
+    - Visszacsatolás alapján módosítások.
+
+### Technológiai megvalósítás
+
+- **Frontend:**  
+  - HTML: Oldal szerkezete, űrlapok, gombok, navigáció.
+  - CSS: Stílusok, elrendezés, reszponzivitás.
+  - JavaScript: Interaktivitás, számítások, átváltási logika.
+
+- **Oldalszerkezet:**  
+  - Főoldal: Navigáció a két funkció között.
+  - Számológép oldal: Két mező a számoknak, művelet kiválasztása, eredmény megjelenítése.
+  - Átváltó oldal: Mértékegység választás (pl. cm → m, kg → g), érték megadása, átváltott érték megjelenítése.
+
+- **Felhasználói élmény:**  
+  - Egyszerű, letisztult UI.
+  - Hibakezelés: Ha a felhasználó érvénytelen adatot ad meg, figyelmeztetés jelenik meg.
+  - Reszponzív design: Minden eszközön jól használható.
+
+### Tesztelés
+
+- **Funkcionális tesztek:**  
+  - Alapműveletek helyes működése különböző értékekkel.
+  - Mértékegység átváltások ellenőrzése.
+  - Hibás adatok kezelése, felhasználói visszajelzések.
+
+- **Felhasználói tesztek:**  
+  - Diákok véleményének begyűjtése, UI fejlesztése visszajelzések alapján.
+
+### Dokumentáció és fenntartás
+
+- Készül rövid felhasználói útmutató (pl. weboldalon elérhető "Segítség" menüpont).
+- A rendszer nyílt forráskódú lehet, így további fejlesztésekre is lehetőséget ad.
+- Hibák javítása, új funkciók beépítése Kanban elvek szerint.
+
+---
+
 **Összefoglalás:**  
 A tervezett weboldal egyszerű, jól használható eszközt kínál diákok számára számolási és mértékegység átváltási feladatokhoz. A fejlesztés Kanban módszertannal, modern webes technológiák alkalmazásával történik. A rendszer célja a tanulók mindennapi munkájának megkönnyítése, gyors és akadálymentes elérés biztosítása.
