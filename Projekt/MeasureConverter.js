@@ -1,19 +1,37 @@
-let mass_value = document.getElementById("mass-value").value;
-const mass_result = document.getElementById("mass-result");
-let time_value = document.getElementById("time-value").value;
-const time_result = document.getElementById("time-result");
 
 function lengthConversion(){
-    const length = parseFloat(document.getElementById("length-value").value) / 100;
-    document.getElementById("length-result").textContent = `Result: ${length} meters`;
+    const inputValue = document.getElementById("length-input").value;
+    const input = parseFloat(inputValue);
+
+    if(isNaN(input)){
+        document.getElementById("length-output").textContent = "Please enter a valid number";
+    }
+    else{
+        const length = input / 100
+        document.getElementById("length-output").textContent = `Result: ${length} meters`;
+    }   
 }
 
 function massConversion(){
-    const mass = parseFloat(document.getElementById("mass-value").value) / 1000;
-    document.getElementById("mass-result").textContent = `Result: ${mass} kilogramms`;
+    const inputValue = document.getElementById("mass-input").value;
+    const input = parseFloat(inputValue);
+    if(isNaN(input)){
+        document.getElementById("mass-output").textContent = "Please enter a valid number";
+    }
+    else{
+        const mass = input / 1000;
+        document.getElementById("mass-output").textContent = `Result: ${mass} kilogramms`
+    }
 }
 
 function timeConversion(){
-    const time = parseFloat(document.getElementById("time-value").value) / 60;
-    document.getElementById("time-result").textContent = `Result ${time} minutes`;
+    const inputValue = document.getElementById("time-input").value;
+    const input = parseFloat(inputValue);
+    if(isNaN(input)){
+        document.getElementById("time-output").textContent = "Please enter a valid number";
+    }
+    else{
+        const time = input / 60;
+        document.getElementById("time-output").textContent = `Result ${time} minutes`;
+    }
 }
