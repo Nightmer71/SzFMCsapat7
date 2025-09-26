@@ -7,11 +7,33 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
+    
     <head>
         <a href="Home.html">Home</a>
         <a href="Calculator.html">Calculator</a>
         <a href="MeasureConverter.html">Unit of Measure Conversion</a>
     </head>
+
+    <div class="card-container" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; padding: 20px;">
+        <div id="length" class="card">
+            <h2>Length Conversion</h2>
+            <input type="number" id="length-value" placeholder="Please enter the amount of cm you want to convert">
+            <button id="length-converter" onclick="lengthConversion()">Convert</button>
+            <h3 id="length-result">Result: </h3>
+        </div>
+        <div id="mass" class="card">
+            <h2>Mass Conversion</h2>
+            <input type="number" id="mass-value" placeholder="Please enter the amount of g you want to convert">
+            <button id="mass-converter" onclick="massConversion()">Convert</button>
+            <h3 id="mass-result">Result: </h3>
+        </div>
+        <div id="time" class="card">
+            <h2>Time Conversion</h2>
+            <input type="number" id="time-value" placeholder="Please enter the amount of s you want to convert">
+            <button id="time-converter" onclick="timeConversion()">Convert</button>
+            <h3 id="time-result">Result: </h3>
+        </div>
+    </div>
 
     <script src="MeasureConverter.js"></script>
 </body>
