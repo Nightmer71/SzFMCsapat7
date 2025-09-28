@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4a6073);
+    color: #fff;
+}
+
+
+header {
+    position: absolute;
+    top: 25px; 
+    display: flex;
+    gap: 25px; 
+    justify-content: center;
+    width: 100%;
+}
+
+header a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    background: rgba(0,0,0,0.3);
+    transition: background 0.3s ease-in-out;
+}
+
+header a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+
+#calculator {
+    background: #2c3e50;
+    padding: 30px; 
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    width: 380px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#display {
+    width: 100%;
+    height: 70px; 
+    border: none;
+    border-radius: 14px;
+    font-size: 2.5rem; 
+    text-align: right;
+    padding: 12px;
+    margin-bottom: 25px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.25);
+}
+
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px; 
+    width: 100%;
+}
+
+
+button {
+    height: 80px;
+    border: none;
+    border-radius: 50%;  
+    font-size: 1.6rem; 
+    font-weight: bold;
+    cursor: pointer;
+    background: #34495e;
+    color: #ecf0f1;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.operator-btn,
+.equals-btn,
+.clear-btn {
+    background: #1abc9c;
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 7px 18px rgba(0,0,0,0.35);
+}
+
+button:active {
+    transform: scale(0.95);
+}
