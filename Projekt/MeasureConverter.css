@@ -23,18 +23,24 @@ header {
 }
 
 header a {
+    display: inline-block;
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #3b4a59, #2c3e50);
     color: #ecf0f1;
     text-decoration: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    background: rgba(0,0,0,0.3);
-    transition: background 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
 }
 
 header a:hover {
-    background: rgba(255,255,255,0.2);
+    background: linear-gradient(135deg, #677e93, #495765);
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
 }
+
 
 .card-container {
     display: flex;
@@ -44,6 +50,7 @@ header a:hover {
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
+    margin-top: 100px; 
 }
 
 

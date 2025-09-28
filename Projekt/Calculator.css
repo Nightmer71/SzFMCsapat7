@@ -10,49 +10,52 @@ body {
     color: #fff;
 }
 
-
 header {
     position: absolute;
-    top: 25px; 
+    top: 25px;
     display: flex;
-    gap: 25px; 
+    gap: 25px;
     justify-content: center;
     width: 100%;
 }
 
 header a {
+    display: inline-block;
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #3b4a59, #2c3e50);
     color: #ecf0f1;
     text-decoration: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 10px 20px; 
-    border-radius: 10px;
-    background: rgba(0,0,0,0.3);
-    transition: background 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
 }
 
 header a:hover {
-    background: rgba(255,255,255,0.2);
+    background: linear-gradient(135deg, #677e93, #495765);
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
 }
 
 
 #calculator {
     background: #2c3e50;
-    padding: 30px; 
+    padding: 30px;
     border-radius: 25px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    width: 380px; 
+    width: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
 #display {
     width: 100%;
-    height: 70px; 
+    height: 70px;
     border: none;
     border-radius: 14px;
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     text-align: right;
     padding: 12px;
     margin-bottom: 25px;
@@ -65,16 +68,15 @@ header a:hover {
 #keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 18px; 
+    gap: 18px;
     width: 100%;
 }
-
 
 button {
     height: 80px;
     border: none;
-    border-radius: 50%;  
-    font-size: 1.6rem; 
+    border-radius: 50%;
+    font-size: 1.6rem;
     font-weight: bold;
     cursor: pointer;
     background: #34495e;
@@ -85,7 +87,6 @@ button {
     align-items: center;
     justify-content: center;
 }
-
 
 .operator-btn,
 .equals-btn,
